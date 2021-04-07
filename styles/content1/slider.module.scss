@@ -1,0 +1,36 @@
+.container {
+  width: 630px;
+  height: 410px;
+  background-color: #1ea7fd;
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .button {
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  ul {
+    transition: all 0.5s;
+    position: absolute;
+    display: flex;
+    width: 630px;
+    height: 410px;
+    padding: 0;
+
+    li {
+      position: absolute;
+      width: 630px;
+      height: 410px;
+
+      img {
+        width: 630px;
+        height: 410px;
+      }
+    }
+  }
+}

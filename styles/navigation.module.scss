@@ -1,0 +1,246 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-bottom: 10px;
+
+  .navi {
+    width: 1170px;
+    height: 75px;
+    padding: 0 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    img {
+      height: 100%;
+      width: 150px;
+    }
+
+
+    .searchContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-right: 20px;
+      height: 75px;
+
+
+      .search {
+
+        border: #1ea7fd 1px solid;
+        border-radius: 3px;
+
+        .input {
+          outline: none;
+          border: none;
+          width: 390px;
+          height: 40px;
+          padding-left: 20px;
+
+        }
+
+        button {
+          background-color: #1ea7fd;
+          border: none;
+          outline: none;
+          height: 40px;
+          width: 122px;
+          color: white;
+          font-size: 1em;
+        }
+      }
+
+      .choice {
+        font-size: small;
+        padding: 0 3px;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+          color: grey;
+        }
+      }
+
+
+    }
+
+    .icons {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+
+
+      div {
+        font-size: 0.9em;
+
+
+        img {
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+
+
+    .profile {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      box-sizing: content-box;
+      font-size: 0.9em;
+      z-index: 20;
+      position: relative;
+
+
+      .arrowBottom {
+        display: inline-block;
+        width: 0.7em;
+        height: 0.7em;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 2px;
+        border-right: 0.2em solid rgb(74, 144, 226);
+        border-top: 0.2em solid rgb(74, 144, 226);
+        transform: rotate(135deg);
+      }
+
+      img {
+        width: 32px;
+        height: 32px;
+      }
+
+      .profileMenu {
+        display: none;
+        top: 60px;
+        margin-right: 110px;
+        position: absolute;
+        width: 230px;
+        height: 180px;
+        z-index: 20;
+
+        .menu {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 100%;
+          height: calc(90%);
+          margin-top: 30px;
+          background-color: white;
+          border: #ECECEC 1px solid;
+          box-shadow: 2px 2px #ECECEC;
+          padding: 20px;
+
+
+          .arrowTop {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: 20px;
+            top: 20px;
+            border-top: #ECECEC 1px solid;
+            border-left: #ECECEC 1px solid;
+            transform: rotate(45deg);
+            background-color: white;
+          }
+
+          .hr {
+            padding: 0;
+            border-top: grey 1px solid;
+            margin: 3px 0;
+          }
+
+          div {
+            display: flex;
+
+            .count {
+              color: white;
+              margin-left: 20px;
+              display: flex;
+              justify-content: center;
+              width: 30px;
+              height: 20px;
+              display: inline-flex;
+              background-color: #1ea7fd;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+
+      &:hover .profileMenu {
+        display: flex;
+      }
+    }
+  }
+}
+
+.content {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  border-bottom: #ECECEC 1px solid;
+  position: relative;
+
+
+  .subHeaders {
+    display: none;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: -400px;
+    z-index: 99;
+    height: 402px;
+    background-color: white;
+    border-bottom: #ECECEC 1px solid;
+    position: absolute;
+    box-shadow: 2px 2px #ECECEC;
+  }
+
+  .navi2 {
+    position: relative;
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .menuTitle {
+
+      height: 75px;
+      text-align: center;
+      margin: 0 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+
+      .pipe {
+        display: none;
+        position: absolute;
+        width: 75%;
+        height: 5px;
+        border-radius: 10px;
+        background-color: #1ea7fd;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+
+      &:hover .pipe {
+        display: block;
+      }
+
+    }
+  }
+}

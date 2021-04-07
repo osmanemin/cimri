@@ -1,0 +1,88 @@
+.container {
+
+  display: flex;
+
+  .double {
+
+    height: 410px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    .mt {
+      margin-top: 10px;
+    }
+
+    .product {
+      background-color: white;
+      height: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: 80%;
+        width: 60%;
+        margin: 5px;
+      }
+
+    }
+
+  }
+
+  .single {
+
+    text-align: center;
+    width: 210px;
+    height: 410px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 0;
+
+    .price {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .discount {
+        margin-right: 10px;
+        width: 40px;
+        height: 30px;
+        background-color: red;
+        color: white;
+      }
+
+      h3 {
+        margin: 0;
+      }
+
+      p {
+        color: #767E8C;
+        text-decoration: line-through;
+        margin: 0;
+      }
+
+    }
+
+
+    .merchant {
+      margin-top: 10px;
+    }
+
+    img {
+      width: 70%;
+    }
+
+    .row {
+      border-top: 1px solid #ECECEC;
+      margin-top: 5px;
+    }
+  }
+
+}
