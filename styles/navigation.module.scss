@@ -182,19 +182,64 @@
   }
 }
 
-.content {
-  display: flex;
-  background-color: white;
-  justify-content: center;
-  border-bottom: #ECECEC 1px solid;
+.menu {
   position: relative;
+  display: flex;
+  background: white;
+  justify-content: center;
 
+  .content {
+    display: inline-flex;
+    background-color: white;
+    justify-content: center;
+    border-bottom: #ECECEC 1px solid;
+    position: relative;
+
+    .navi2 {
+      position: relative;
+      width: 1170px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+
+      .menuTitle {
+
+        height: 75px;
+        text-align: center;
+        margin: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+
+        .pipe {
+          display: none;
+          position: absolute;
+          width: 75%;
+          height: 5px;
+          border-radius: 10px;
+          background-color: #1ea7fd;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+        }
+
+        &:hover .pipe {
+          display: block;
+        }
+
+      }
+    }
+  }
 
   .subHeaders {
     display: none;
     right: 0;
     left: 0;
-    margin: auto;
     bottom: -400px;
     z-index: 99;
     height: 402px;
@@ -202,45 +247,5 @@
     border-bottom: #ECECEC 1px solid;
     position: absolute;
     box-shadow: 2px 2px #ECECEC;
-  }
-
-  .navi2 {
-    position: relative;
-    width: 1170px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
-    .menuTitle {
-
-      height: 75px;
-      text-align: center;
-      margin: 0 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-
-
-      .pipe {
-        display: none;
-        position: absolute;
-        width: 75%;
-        height: 5px;
-        border-radius: 10px;
-        background-color: #1ea7fd;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-      }
-
-      &:hover .pipe {
-        display: block;
-      }
-
-    }
   }
 }

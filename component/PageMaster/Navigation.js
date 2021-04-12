@@ -86,76 +86,80 @@ const Navigation = () => {
 
             <div style={{borderTop: "#ECECEC 1px solid", margin: "0"}}/>
 
-            <div onMouseLeave={() => {
-                setVisibility("none")
-            }} className={style.content}>
-                <div>
-                    <nav className={style.navi2}>
+            <div className={style.menu}>
+                <div onMouseLeave={() => {
+                    setVisibility("none")
+                }} className={style.content}>
+                    <div>
+                        <nav className={style.navi2}>
 
-                        <div onMouseEnter={() => {
-                            setVisibility("block")
-                        }}
-                             className={style.menuTitle}>Lorem ipsum dolor sit amet.
-                            <div className={style.pipe}>
+                            <div onMouseEnter={() => {
+                                setVisibility("block")
+                            }}
+                                 className={style.menuTitle}>Lorem ipsum dolor sit amet.
+                                <div className={style.pipe}>
 
+                                </div>
                             </div>
-                        </div>
-                        <div onMouseEnter={() => {
-                            setVisibility("block")
-                        }}
-                             className={style.menuTitle}>Lorem ipsum dolor sit amet.
-                            <div className={style.pipe}>
+                            <div onMouseEnter={() => {
+                                setVisibility("block")
+                            }}
+                                 className={style.menuTitle}>Lorem ipsum dolor sit amet.
+                                <div className={style.pipe}>
 
+                                </div>
                             </div>
-                        </div>
-                        <div onMouseEnter={() => {
-                            setVisibility("block")
-                        }}
-                             className={style.menuTitle}>Lorem ipsum dolor sit amet.
-                            <div className={style.pipe}>
+                            <div onMouseEnter={() => {
+                                setVisibility("block")
+                            }}
+                                 className={style.menuTitle}>Lorem ipsum dolor sit amet.
+                                <div className={style.pipe}>
 
+                                </div>
                             </div>
-                        </div>
-                        <div onMouseEnter={() => {
-                            setVisibility("block")
-                        }}
-                             className={style.menuTitle}>Lorem ipsum dolor sit amet.
-                            <div className={style.pipe}>
+                            <div onMouseEnter={() => {
+                                setVisibility("block")
+                            }}
+                                 className={style.menuTitle}>Lorem ipsum dolor sit amet.
+                                <div className={style.pipe}>
 
+                                </div>
                             </div>
-                        </div>
-                        <div onMouseEnter={() => {
-                            setVisibility("block")
-                        }}
-                             className={style.menuTitle}>Lorem ipsum dolor sit amet.
-                            <div className={style.pipe}>
+                            <div onMouseEnter={() => {
+                                setVisibility("block")
+                            }}
+                                 className={style.menuTitle}>Lorem ipsum dolor sit amet.
+                                <div className={style.pipe}>
 
+                                </div>
                             </div>
-                        </div>
-                        <div onMouseEnter={() => {
-                            setVisibility("block")
-                        }}
-                             className={style.menuTitle}>Lorem ipsum dolor sit amet.
-                            <div className={style.pipe}>
+                            <div onMouseEnter={() => {
+                                setVisibility("block")
+                            }}
+                                 className={style.menuTitle}>Lorem ipsum dolor sit amet.
+                                <div className={style.pipe}>
 
+                                </div>
                             </div>
-                        </div>
-                        <div onMouseEnter={() => {
-                            setVisibility("block")
-                        }}
-                             className={style.menuTitle}>Lorem ipsum dolor sit amet.
-                            <div className={style.pipe}>
+                            <div onMouseEnter={() => {
+                                setVisibility("block")
+                            }}
+                                 className={style.menuTitle}>Lorem ipsum dolor sit amet.
+                                <div className={style.pipe}>
 
+                                </div>
                             </div>
-                        </div>
-                    </nav>
+                        </nav>
+                    </div>
+
                 </div>
                 <div
                     style={{display: `${visibility}`}}
                     className={style.subHeaders}>
-
                 </div>
             </div>
+
+
         </div>
 
     )
