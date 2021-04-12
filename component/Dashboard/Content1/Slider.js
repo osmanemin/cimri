@@ -6,6 +6,7 @@ const Slider = () => {
     const data = ["/navi/cimri.jpg", "/navi/cimri.jpg", "/navi/cimri.jpg", "/navi/cimri.jpg"];
     const [index, setIndex] = useState(0);
     const [onMouseEnter, setOnMouseEnter] = useState(false);
+    const [timeoutSlider, setTimeoutSlider] = useState();
 
     const next = () => {
         index >= 3 ? setIndex(0) : setIndex(index + 1);
@@ -16,7 +17,9 @@ const Slider = () => {
     }
 
     useEffect(() => {
-        !onMouseEnter && setTimeout(next, 2000);
+
+        !onMouseEnter ? setTimeoutSlider(setTimeout(next, 2000)) : clearTimeout(timeoutSlider);
+
     }, [index, onMouseEnter]);
 
     return (
