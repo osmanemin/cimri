@@ -17,9 +17,7 @@ const Slider = () => {
     }
 
     useEffect(() => {
-
         !onMouseEnter ? setTimeoutSlider(setTimeout(next, 2000)) : clearTimeout(timeoutSlider);
-
     }, [index, onMouseEnter]);
 
     return (

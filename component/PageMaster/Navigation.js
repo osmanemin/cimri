@@ -153,7 +153,6 @@ const Navigation = () => {
                     </div>
                 </div>
                 <div
-                    style={{display: `${visibility}`}}
                     className={style.subHeaders}>
                 </div>
             </div>
