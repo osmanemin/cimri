@@ -12,7 +12,7 @@ const Navigation = () => {
 
                 <nav className={style.navi}>
 
-                    <img src="/navi/cimri.svg" alt="cimri"/>
+                    <img className={style.cimriAvatar} src="/navi/cimri.svg" alt="cimri"/>
 
                     <div className={style.searchContainer}>
 
