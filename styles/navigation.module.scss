@@ -214,22 +214,25 @@
         align-items: center;
         position: relative;
 
-
         .pipe {
-          display: none;
           position: absolute;
           width: 75%;
-          height: 5px;
+          height: 0;
           border-radius: 10px;
           background-color: #1ea7fd;
           bottom: 0;
           left: 0;
           right: 0;
-          margin: auto;
+          margin-bottom:-5px;
+          margin-right: auto;
+          margin-left: auto;
+          transition: all 0.3s;
+
         }
 
         &:hover .pipe {
-          display: block;
+          margin-bottom: 0;
+          height: 5px;
         }
 
       }

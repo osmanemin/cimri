@@ -151,7 +151,6 @@ const Navigation = () => {
                             </div>
                         </nav>
                     </div>
-
                 </div>
                 <div
                     style={{display: `${visibility}`}}
