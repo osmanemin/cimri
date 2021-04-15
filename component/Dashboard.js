@@ -1,4 +1,4 @@
-import Content1 from "./Dashboard/Content1/Content1";
+import Content1 from "./Dashboard/Content 1/Content1";
 import Merchant from "./Dashboard/Content 2/Merchant";
 import style from '../styles/dashboard.module.scss';
 import Product from "./Dashboard/Content 3/Product";
