@@ -1,7 +1,6 @@
 import style from "../../styles/navigation.module.scss";
 
 const Navigation = () => {
-
   return (
     <div>
       <div className={style.container}>
@@ -95,12 +94,7 @@ const Navigation = () => {
       <div style={{ borderTop: "#ECECEC 1px solid", margin: "0" }} />
 
       <div className={style.menu}>
-        <div
-          onMouseLeave={() => {
-            setVisibility("none");
-          }}
-          className={style.content}
-        >
+        <div className={style.content}>
           <div>
             <nav className={style.navi2}>
               <div className={style.menuTitle}>
