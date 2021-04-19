@@ -69,6 +69,7 @@
 
     .icons {
       display: flex;
+      cursor: pointer;
       justify-content: flex-end;
       flex-direction: column;
       align-items: center;
@@ -143,7 +144,7 @@
             width: 20px;
             height: 20px;
             right: 20px;
-            top: 20px;
+            top: -10px;
             border-top: #ECECEC 1px solid;
             border-left: #ECECEC 1px solid;
             transform: rotate(45deg);
